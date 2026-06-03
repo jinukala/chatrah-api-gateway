@@ -61,7 +61,7 @@ public class JwtAuthFilter implements ContainerRequestFilter {
                 || path.startsWith("api/school/profile")
                 || path.startsWith("api/events/upcoming")
                 || path.startsWith("api/blogs/approved")
-                || path.startsWith("api/students/birthdays")
+                || path.startsWith("api/students/birthdays/today")
                 || path.startsWith("api/payments/webhook");
     }
 }
